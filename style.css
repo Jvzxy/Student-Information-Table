@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: fixed;
+    background: url(image/Liceo.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff5;
+    backdrop-filter: blur(4px);
+    align-items: center;
+}
+
+p {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    margin-top: 17rem;   
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    margin: 22rem 61rem 0 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+table {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 250px;
+    text-align: center;
+    color: black;
+    background-color: #fff5;
+    backdrop-filter: blur(9px);
+    box-shadow: 0 .8rem .7rem #0005;
+    border-radius: .3rem;
+    font-weight: 600;
+    
+    
+}
+
+th, td{
+    padding: 23px 30px;
+}
+
+thead td {
+    top: 0;
+    left: 0;
+    background-color: #333333;
+    border-radius: .3rem;
+}
+
+thead tr {
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #0000000b;
+}
+
+tbody tr:hover {
+    background-color: #fff6;
+}
